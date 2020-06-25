@@ -1,0 +1,11 @@
+{
+  "port": 5555,
+  "pg": {
+    "user": "postgres",
+    "host": "localhost",
+    "database": "dvdrental",
+    "password": "19Inetkmn83",
+    "port": 5432
+  }
+}
+

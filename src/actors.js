@@ -50,12 +50,14 @@ class Actors extends React.Component {
                     list:res.rows,
                     firstName: "",
                     lastName: "",
+                    writeNewActor:false,
                 });
             } else {
                 console.log("sendDataNewActor err: ", res);
                 this.setState({
                     err: res,
-                    errorRedirect: true
+                    errorRedirect: true,
+                    writeNewActor:false,
                 });
             }
 
